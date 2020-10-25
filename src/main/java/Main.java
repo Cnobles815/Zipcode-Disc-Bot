@@ -13,7 +13,7 @@ public final class Main {
     public static void main(final String[] args) throws FileNotFoundException {
 
 
-        final String token = "" ;
+        final String token = " " ;
         final DiscordClient client = DiscordClient.create(token);
         final GatewayDiscordClient gateway = client.login().block();
 
